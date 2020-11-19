@@ -1,5 +1,5 @@
 <?php
-
+      error_reporting(0);
       $nom = "$_GET[nom] <br>";
       $email = "$_GET[email] <br>";
       $navegadors = "$_GET[navegadors] <br>";
