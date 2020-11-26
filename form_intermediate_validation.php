@@ -13,7 +13,7 @@
         }
       echo "<hr><h2>Funció del strcmp</h2>";
         function passwordValidation ($variable1,$variable2){
-            if (strcmp($variable1,$variable2) == 0)
+            if (strcmp($variable1,$variable2) !== 0)
               return True;
             return False;
         }
