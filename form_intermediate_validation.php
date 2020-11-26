@@ -18,7 +18,7 @@
             return False;
         }
 
-        echo passwordValidation ("Hola","Hola");
+        echo passwordValidation ("hola","hola");
 
 
 ?>
