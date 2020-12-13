@@ -9,7 +9,7 @@ if ($_POST){
   //name format
   $name=$_POST['name'];
   //if the $name variable has been initialised and is not null
-  if(($name))
+  if(($name)) //visusi corrections: Falta isset
      $capitalisedName = nameToCapitalLetters($name);
   //price value
   $price=$_POST['price'];
@@ -63,6 +63,7 @@ if ($_POST){
 
     <?php
     //if $finalPrice or $replacedMessage have been initialised and aren't null value
+    //visusi corrections - the condition has to be OR || instead of and && 
     if ((isset($finalPrice))&&(isset($replacedMessage))){
         echo "<p><b>Form output</b></p>";
         echo "<p>$replacedMessage</p>"; //show message to the user
