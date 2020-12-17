@@ -1,4 +1,5 @@
 <?php
+//viusi corrections - see comments below amd rubric in moodle
 //Definició de variable i assignació de valor null
 $finalPrice=$partialPrice2=$partialPrice=$viewsPrice=$genderPrice=$typePrice=$foodServices=$views=$gender=$type=null;
 
